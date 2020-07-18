@@ -3,6 +3,10 @@
  <head>
   <meta charset="UTF-8">
   <title>Basketball Team</title>
+  <% @team_data.each do |x,y| %>
+    <p> <%= "#{x.text}: #{y}" %> </p>
+    <% end %>
+  
  </head>
  <body>
  
